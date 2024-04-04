@@ -16,8 +16,8 @@ def main():
     current_year = datetime.now().year
 
     # Set the minimum and maximum date values for the date inputs
-    min_date = pd.to_datetime(f'2023-12-05')
-    max_date = pd.to_datetime(f'2023-12-31')
+    min_date = pd.to_datetime(f'2024-03-29')
+    max_date = pd.to_datetime(f'2024-04-29')
 
     start_date = st.date_input("Select start date", min_value=min_date, max_value=max_date, value=min_date)
     end_date = st.date_input("Select end date", min_value=min_date, max_value=max_date, value=max_date)
